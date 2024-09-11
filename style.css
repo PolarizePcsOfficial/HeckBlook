@@ -156,3 +156,19 @@ footer {
 #fon {
     text-align: center;
 }
+
+ a {
+      display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background: #e74c3c;
+    text-decoration: none;
+    border-radius: 5px;
+ }
+
+a:hover {
+    background: #c0392b;
+    transition: 0.3s;
+    transform: translateY(5px);
+}
